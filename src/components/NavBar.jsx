@@ -7,7 +7,6 @@ import FolioFix from "../images/GMC logo 1.png"
 const Container = styled.div`
 display: flex;
 justify-content: space-between;
-margin: 3rem;
 align-items:center;
 `
 const Logo = styled.img`

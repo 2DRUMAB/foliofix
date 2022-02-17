@@ -11,7 +11,7 @@ import LandingPage from "../images/image 3.png"
 const Container = styled.div`
 display: flex;
 color: white;
-margin: 4rem;
+margin-top: 6rem;
 height: 60vh;
 
 `
@@ -21,49 +21,48 @@ display: flex;
 flex-direction:column;
 flex:1.5;
 justify-content: space-evenly;
-padding-right:3rem;
+padding-right:7rem;
 `
 // h1 text
 const H1text = styled.h1`
 font-size: 37px;
+font-weight: 500;
 `
 const Ptext = styled.p`
 margin-bottom: 3rem;
 font-size: 15px;
+font-family: inherit;
 `
 const SignUpContainer = styled.div`
 display: flex;
 justify-content: space-between;
 height: 60px;
-width: 671px;
 border-radius: 20px;
 background: rgba(28, 26, 184, 1);
 padding:0.5rem;
 `
 const EmailInput = styled.input`
-width: 184px;
 height: 40px;
 border-radius: 18px;
 border:none;
 color: rgba(29, 93, 192, 1);
 font-size:15px;
 font-family:inherit;
-font-weight:bolder;
-padding-left:2rem;
+font-weight:bold;
+padding-left:1rem;
 cursor:pointer;
 &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgba(29, 93, 192, 1);
 }
 `
 const PasswordInput = styled.input`
-width: 184px;
 height: 40px;
 border-radius: 18px;
 border:none;
 font-size:15px;
 font-family:inherit;
-font-weight:bolder;
-padding-left:2rem;
+font-weight:bold;
+padding-left:1rem;
 cursor:pointer;
 &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgba(29, 93, 192, 1);
@@ -74,11 +73,10 @@ background: rgba(253, 104, 77, 1);
 color: rgba(29, 93, 192, 1);
 border-radius: 18px;
 border:none;
-width: 184px;
-height: 40px;
-font-size:15px;
+
+font-size:14px;
 font-family:inherit;
-font-weight:bolder;
+font-weight:bold;
 cursor:pointer;
 `
 const ImageContainer = styled.div`
@@ -88,7 +86,7 @@ flex:1;
 const Image = styled.img`
 padding-left: 5rem;
 position:relative;
-      z-index: 2;
+z-index: 2;
 `
 const GradientImage = styled.div`
 margin-left: 7rem;
