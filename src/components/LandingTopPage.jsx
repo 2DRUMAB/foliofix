@@ -103,6 +103,11 @@ color:rgba(255, 255, 255, 0.5);
 font-size: 13px;
 `
 
+const ProductFeatures = styled.div`
+color:rgba(255, 255, 255, 0.5);
+font-size: 13px;
+`
+
 /******************* END OF STYLING*******************/
 
 
@@ -130,6 +135,10 @@ const LandingTopPage = () => {
             <Image src={LandingPage} alt="landing"/>
             
         </ImageContainer>
+
+        <ProductFeatures>
+<p>hello</p> 
+        </ProductFeatures>
     </Container>
   )
 }
